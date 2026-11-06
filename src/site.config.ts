@@ -26,6 +26,27 @@ export const site = {
     },
   ],
 
+  experiences: [
+    {
+      role: "Placeholder Role One",
+      org: "Placeholder Company",
+      period: "2026 — Present",
+      description: "One line about what the work was.",
+    },
+    {
+      role: "Placeholder Role Two",
+      org: "Placeholder Company",
+      period: "2025 — 2026",
+      description: "One line about what the work was.",
+    },
+    {
+      role: "Placeholder Role Three",
+      org: "Placeholder Company",
+      period: "2024 — 2025",
+      description: "One line about what the work was.",
+    },
+  ],
+
   more: {
     text: "Find me around the web ",
     links: [
