@@ -1,0 +1,14 @@
+---
+title: "Placeholder Post Two"
+description: "A second entry so you can see how the list sorts."
+date: "2026-02-03"
+---
+
+A second filler post, purely so the ordering on the home page is visible. Newer
+dates float to the top.
+
+## How the list is built
+
+`src/lib/posts.ts` reads every `.md` and `.mdx` file in `src/content`, parses the
+frontmatter with `gray-matter`, and sorts by `date` descending. The home page
+renders that array; each article route dynamically imports the matching MDX file.
