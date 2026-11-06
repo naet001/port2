@@ -2,35 +2,35 @@
  * Everything on the home page lives here. Edit this file, not the components.
  */
 export const site = {
-  name: "Your Name",
-  role: "Design Engineer",
+  name: "Nommoh Hayab",
+  role: "Software Engineer",
   metadataDescription: "One or two sentences for search results and link previews.",
 
-  now: "A short paragraph about what you are working on right now.",
+  now: "I’m currently building AI-powered developer tools, with a focus on coding agents, LLM integrations, and backend infrastructure. My main project is rem, an open-source terminal coding agent written in Rust, with support for multiple LLM providers, MCP tools, parallel subagents, and persistent sessions. I’m also exploring RAG, model evaluation, and ways to make AI agents more reliable, efficient, and useful in real-world development workflows.",
 
   projects: [
     {
-      title: "Project One",
-      description: "One line on what it is and why it exists.",
-      href: "https://example.com",
+      title: "rem",
+      description: "An open-source Rust coding agent for the terminal.",
+      href: "https://github.com/naet001/rem",
     },
     {
-      title: "Project Two",
-      description: "Another short description.",
-      href: "https://example.com",
+      title: "mnemos",
+      description: "A shared memory layer that lets AI agents remember and recall context across LLMs.",
+      href: "https://github.com/naet001/mnemos",
     },
     {
-      title: "Project Three",
+      title: "this portfolio",
       description: "Open source, side project, client work, anything.",
       href: "https://example.com",
     },
   ],
 
   more: {
-    text: "More of my writing lives here, and more of my code lives there.",
+    text: "Find me around the web ",
     links: [
-      { label: "GitHub", href: "https://github.com/your-username" },
-      { label: "Mastodon", href: "https://mastodon.social/@you" },
+      { label: "GitHub", href: "https://github.com/naet001" },
+      { label: "X", href: "https://x.com/naet001" },
     ],
   },
 } as const;
