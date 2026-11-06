@@ -1,5 +1,4 @@
 import { site } from "@/site.config";
-import { ThemeToggle } from "@/components/theme-toggle";
 
 function Section({ heading, children }: { heading: string; children: React.ReactNode }) {
   return (
@@ -13,12 +12,9 @@ function Section({ heading, children }: { heading: string; children: React.React
 export default function Page() {
   return (
     <main className="mx-auto w-full max-w-[42rem] px-6 py-14 sm:py-28">
-      <header className="flex items-start justify-between gap-6">
-        <div className="flex flex-col">
-          <span className="text-[1.05rem] font-medium">{site.name}</span>
-          <span className="text-sm text-muted">{site.role}</span>
-        </div>
-        <ThemeToggle />
+      <header className="flex flex-col">
+        <span className="text-[1.05rem] font-medium">{site.name}</span>
+        <span className="text-sm text-muted">{site.role}</span>
       </header>
 
       <section className="mt-16 sm:mt-24">
