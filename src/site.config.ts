@@ -30,22 +30,22 @@ export const site = {
 
   experiences: [
     {
-      role: "Placeholder Role One",
-      org: "Placeholder Company",
-      period: "2026 — Present",
-      description: "One line about what the work was.",
+      role: "Backend Engineer",
+      org: "Uptime Tech",
+      period: "Apr 2026 – Jul 2026",
+      description: "Built backend APIs and predictive-maintenance services, integrated LLM-powered RAG features, and improved testing and deployment reliability.",
     },
     {
-      role: "Placeholder Role Two",
-      org: "Placeholder Company",
-      period: "2025 — 2026",
-      description: "One line about what the work was.",
+      role: "Web3 Backend Engineer",
+      org: "Kat's & Co",
+      period: "Jan 2024 – Feb 2026",
+      description: "Built and maintained Web3 payment systems processing 1,000+ monthly transactions at a 99% success rate, while improving deployment speed by 60%.",
     },
     {
-      role: "Placeholder Role Three",
-      org: "Placeholder Company",
-      period: "2024 — 2025",
-      description: "One line about what the work was.",
+      role: "Backend Engineer",
+      org: "Freelance",
+      period: "Feb 2021 – Nov 2023",
+      description: "Built Node.js and Go APIs for 2,000+ users, improving response times by 35% through database and service optimisation.",
     },
   ],
 
