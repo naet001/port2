@@ -4,7 +4,9 @@
 export const site = {
   name: "Nommoh Hayab",
   role: "Software Engineer",
-  metadataDescription: "One or two sentences for search results and link previews.",
+  url: "https://hnommoh.vercel.app",
+  metadataDescription:
+    "Nommoh Hayab is a software engineer building AI-powered developer tools, including coding agents, LLM integrations, and backend infrastructure.",
 
   now: "I’m currently building AI-powered developer tools, with a focus on coding agents, LLM integrations, and backend infrastructure. My main project is rem, an open-source terminal coding agent written in Rust, with support for multiple LLM providers, MCP tools, parallel subagents, and persistent sessions. I’m also exploring RAG, model evaluation, and ways to make AI agents more reliable, efficient, and useful in real-world development workflows.",
 
