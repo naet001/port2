@@ -32,7 +32,7 @@ export const site = {
     {
       role: "Backend Engineer",
       org: "Uptime Tech",
-      period: "Apr 2026 – Jul 2026",
+      period: "Apr 2026 – Sept 2026",
       description: "Built backend APIs and predictive-maintenance services, integrated LLM-powered RAG features, and improved testing and deployment reliability.",
     },
     {
