@@ -24,7 +24,7 @@ export const site = {
     {
       title: "this portfolio",
       description: "Open source, side project, client work, anything.",
-      href: "https://example.com",
+      href: "https://github.com/naet001/port2",
     },
   ],
 
