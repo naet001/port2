@@ -8,7 +8,7 @@ export const site = {
   metadataDescription:
     "Nommoh Hayab is a software engineer building AI-powered developer tools, including coding agents, LLM integrations, and backend infrastructure.",
 
-  now: "I’m currently building AI-powered developer tools, with a focus on coding agents, LLM integrations, and backend infrastructure. My main project is rem, an open-source terminal coding agent written in Rust, with support for multiple LLM providers, MCP tools, parallel subagents, and persistent sessions. I’m also exploring RAG, model evaluation, and ways to make AI agents more reliable, efficient, and useful in real-world development workflows.",
+  now: "I’m a backend engineer who applies AI engineering to build production systems. My work includes creating scalable APIs, implementing LLM integrations for real-world applications, and building AI-powered developer tools. I’m currently developing rem, an open-source Rust terminal coding agent with multiple LLM provider support and persistent sessions, while exploring RAG systems, model evaluation, and making AI agents more reliable in production environments.",
 
   projects: [
     {
