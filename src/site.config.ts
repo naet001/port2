@@ -54,6 +54,7 @@ export const site = {
     links: [
       { label: "GitHub", href: "https://github.com/naet001" },
       { label: "X", href: "https://x.com/naet001" },
+      { label: "Linkedin", href: "https://www.linkedin.com/in/nommoh-hayab-712abb440" }
     ],
   },
 } as const;
