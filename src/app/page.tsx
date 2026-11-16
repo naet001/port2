@@ -65,6 +65,14 @@ export default function Page() {
               {i < site.more.links.length - 1 ? ", " : "."}
             </span>
           ))}
+          <span className="mx-2 text-muted" aria-hidden="true">·</span>
+          <a
+            href={site.cv.href}
+            download={site.cv.download}
+            className="underline underline-offset-4 hover:text-ink"
+          >
+            {site.cv.label}
+          </a>
         </p>
       </Section>
     </main>

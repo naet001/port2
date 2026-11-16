@@ -130,6 +130,12 @@ export const site = {
     },
   ],
 
+  cv: {
+    href: "/Isaac%20Hayab.docx",
+    download: "Isaac Hayab.docx",
+    label: "Download CV",
+  },
+
   more: {
     text: "Find me around the web ",
     links: [
