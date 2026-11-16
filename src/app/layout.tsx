@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { site } from "@/site.config";
+import { getKeywordsString } from "@/lib/keywords";
 import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -13,6 +14,10 @@ export const metadata: Metadata = {
     template: `%s — ${site.name}`,
   },
   description: site.metadataDescription,
+  keywords: getKeywordsString(),
+  authors: [{ name: site.name }],
+  creator: site.name,
+  publisher: site.name,
   alternates: {
     canonical: "/",
   },
@@ -28,6 +33,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: site.name,
     description: site.metadataDescription,
+    creator: "@naet001",
   },
   robots: {
     index: true,
@@ -43,6 +49,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <meta name="keywords" content={getKeywordsString()} />
+        <meta name="author" content={site.name} />
+        <meta name="location" content={site.location} />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
