@@ -30,14 +30,13 @@ export function getAllKeywords(): string[] {
   const additionalKeywords = [
     "Backend Development",
     "AI Solutions",
-    "Web3 Solutions",
-    "Blockchain Development",
     "API Design",
     "Microservices",
     "Cloud Infrastructure",
     "DevOps",
     "Software Architecture",
     "TypeScript Development",
+    "Payment Integration",
     "Rust Development",
     "Open Source",
     "GitHub",
@@ -45,7 +44,6 @@ export function getAllKeywords(): string[] {
     "Contract Developer",
     "Tech Consultant",
     "AI Consulting",
-    "Web3 Consulting"
   ];
   allKeywords.push(...additionalKeywords);
 

@@ -24,18 +24,30 @@ export default function Page() {
 
       <Section heading="Projects">
         <div className="flex flex-col">
-          {site.projects.map((project) => (
-            <a
-              key={project.title}
-              href={project.href}
-              target="_blank"
-              rel="noreferrer"
-              className="row-link flex flex-col gap-0.5"
-            >
-              <span className="text-[0.95rem] font-medium">{project.title}</span>
-              <span className="text-sm text-muted">{project.description}</span>
-            </a>
-          ))}
+          {site.projects.map((project) => {
+            const content = (
+              <>
+                <span className="text-[0.95rem] font-medium">{project.title}</span>
+                <span className="text-sm text-muted">{project.description}</span>
+              </>
+            );
+
+            return project.href ? (
+              <a
+                key={project.title}
+                href={project.href}
+                target="_blank"
+                rel="noreferrer"
+                className="row-link flex flex-col gap-0.5"
+              >
+                {content}
+              </a>
+            ) : (
+              <div key={project.title} className="-mx-3 flex flex-col gap-0.5 rounded-lg px-3 py-1.5">
+                {content}
+              </div>
+            );
+          })}
         </div>
       </Section>
 
@@ -49,6 +61,20 @@ export default function Page() {
               </div>
               <span className="text-sm text-muted">{experience.org}</span>
               <span className="text-sm text-muted">{experience.description}</span>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      <Section heading="Education">
+        <div className="flex flex-col">
+          {site.education.map((entry) => (
+            <div key={entry.credential} className="-mx-3 flex flex-col gap-0.5 rounded-lg px-3 py-1.5">
+              <div className="flex items-baseline justify-between gap-4">
+                <span className="text-[0.95rem] font-medium">{entry.credential}</span>
+                <span className="shrink-0 text-sm text-muted">{entry.period}</span>
+              </div>
+              <span className="text-sm text-muted">{entry.org}</span>
             </div>
           ))}
         </div>
