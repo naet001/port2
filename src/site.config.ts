@@ -136,10 +136,6 @@ export const site: Site = {
 
   projects: [
     {
-      title: "PayFlow API",
-      description: "A payment and subscription backend with Paystack, idempotent webhook handling, plan-based access control, and subscription lifecycle management.",
-    },
-    {
       title: "Distributed Payment Orchestration Platform",
       description: "A distributed platform for orchestrating payment workflows with Go, Gin, GORM, and PostgreSQL. Clean architecture with dependency injection, idempotent processing, and Dockerized deployment.",
       href: "https://github.com/naet001/distributed-payment-orchestration-platform",
