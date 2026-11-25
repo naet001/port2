@@ -140,8 +140,9 @@ export const site: Site = {
       description: "A payment and subscription backend with Paystack, idempotent webhook handling, plan-based access control, and subscription lifecycle management.",
     },
     {
-      title: "Judgment Pack Gateway",
-      description: "A backend gateway service for processing and delivering judgment packs.",
+      title: "Distributed Payment Orchestration Platform",
+      description: "A distributed platform for orchestrating payment workflows with Go, Gin, GORM, and PostgreSQL. Clean architecture with dependency injection, idempotent processing, and Dockerized deployment.",
+      href: "https://github.com/naet001/distributed-payment-orchestration-platform",
     },
     {
       title: "rem",
